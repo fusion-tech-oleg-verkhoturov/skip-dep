@@ -1,13 +1,15 @@
 {
   "extends": [
     "airbnb-base",
-    // "plugin:@typescript-eslint/recommended",
     "next/core-web-vitals"
   ],
   "rules": {
     "object-curly-newline": "off",
     "react/jsx-indent" : ["error", 2],
     "import/no-extraneous-dependencies": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "jsx-quotes": ["error", "prefer-double"],
+    "object-curly-spacing": ["error", "always"],
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }]
   }
 }
