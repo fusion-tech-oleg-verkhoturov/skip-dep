@@ -54,6 +54,9 @@ const StyledCard = styled.div`
       justify-content: space-between;
       align-items: center;
       padding: 12.5px 0;
+      font-size: 16px;
+      line-height: 130%;
+      color: ${({ theme }) => theme.mainTheme.color.typography.lightGreyText};
     }
 
     &__content {
