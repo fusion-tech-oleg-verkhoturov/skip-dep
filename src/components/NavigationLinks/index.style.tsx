@@ -10,6 +10,12 @@ export default styled.nav<{isLight?: boolean}>`
       display: flex;
       align-items: center;
       gap: 8px;
+
+      svg {
+        path {
+          stroke: ${({ theme, isLight }) => (isLight ? theme.mainTheme.color.red.light : theme.mainTheme.color.red.primary)};
+        }
+      }
     }
 
     &__link {

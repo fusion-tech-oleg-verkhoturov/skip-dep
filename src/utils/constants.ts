@@ -9,7 +9,7 @@ export const ROUTES = {
 };
 
 export const URLS = {
-  mainAppURL: process.env.MAIN_APP_URL || 'http://localhost:3000',
+  mainAppURL: process.env.MAIN_APP_URL || 'http://skip-trace.fusion-tech.pro',
   facebook: 'https://facebook.com/',
   twtter: 'https://twitter.com/',
   insta: 'https://instagram.com/',
