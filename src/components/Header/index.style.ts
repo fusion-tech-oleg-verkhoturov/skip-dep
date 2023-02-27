@@ -13,25 +13,10 @@ export default styled.header`
       align-items: center;
     }
 
-    &__navigation {
-      display: flex;
-      align-items: center;
-      gap: 48px;
-    }
-
-    &__affiliate {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
     &__link {
       font-weight: 600;
       font-size: 16px;
-
-      &--active {
-        color: ${({ theme }) => theme.mainTheme.color.red.primary};
-      }
+      color: ${({ theme }) => theme.mainTheme.color.red.primary};
     }
 
     &__right {

@@ -10,4 +10,7 @@ export const ROUTES = {
 
 export const URLS = {
   mainAppURL: process.env.MAIN_APP_URL || 'http://localhost:3000',
+  facebook: 'https://facebook.com/',
+  twtter: 'https://twitter.com/',
+  insta: 'https://instagram.com/',
 };

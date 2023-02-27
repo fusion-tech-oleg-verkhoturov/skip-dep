@@ -17,7 +17,7 @@ const defaultTheme: DefaultTheme = {
       green: '#72CA95',
       yellow: '#E7B929',
       typography: {
-        blackText: '#000000',
+        blackText: '#030B05',
         greyText: '#434343',
         lightGreyText: '#ACACAC',
         whiteText: '#FFFFFF',

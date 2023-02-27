@@ -1,6 +1,10 @@
 import styled, { css } from 'styled-components';
 
 export default styled.button<{ disabled?: boolean }>`
+  font-family: ${({ theme }) => theme.font.family};
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
   font-weight: 700;
   cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
   ${({ theme }) => css`
@@ -23,24 +27,5 @@ export default styled.button<{ disabled?: boolean }>`
     ${({ theme, disabled }) => css`
       background: ${!disabled ? theme.mainTheme.color.red.dark : theme.mainTheme.color.typography.lightGreyText};
     `}
-  }
-
-  > label {
-    display: flex;
-    column-gap: 8px;
-    align-items: center;
-    justify-content: center;
-    cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
-  }
-
-  input {
-    display: none;
-  }
-
-  > div {
-    display: flex;
-    column-gap: 8px;
-    align-items: center;
-    justify-content: center;
   }
 `;
