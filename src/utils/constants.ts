@@ -1,7 +1,16 @@
-const constants = {
-  URLS: {
-    mainAppURL: process.env.MAIN_APP_URL || 'http://localhost:3000',
-  },
+export const ROUTES = {
+  home: '/',
+  pricing: '/pricing',
+  faq: '/faq',
+  blog: '/blog',
+  affiliates: '/affiliates',
+  logIn: '/log-in',
+  signUp: '/sign-up',
 };
 
-export default constants;
+export const URLS = {
+  mainAppURL: process.env.MAIN_APP_URL || 'http://localhost:3000',
+  facebook: 'https://facebook.com/',
+  twtter: 'https://twitter.com/',
+  insta: 'https://instagram.com/',
+};

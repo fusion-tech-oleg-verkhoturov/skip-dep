@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-import HomePage from '@/views/HomePage';
-
 const Home = () => (
   <>
     <Head>
-      <title>Home page</title>
+      <title>Pricing page</title>
     </Head>
-    <HomePage />
+    <div>
+      Pricing page
+    </div>
   </>
 );
 
