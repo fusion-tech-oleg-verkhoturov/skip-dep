@@ -5,7 +5,7 @@ import classnames from 'classnames';
 import { ROUTES } from '@/utils/constants';
 import Link from 'next/link';
 import DownSVG from '../../../public/images/chevron-down.svg';
-import LogoSVG from '../../../public/images/logo.svg';
+import LogoSVG from '../../../public/images/Logo.svg';
 import LogoLightSVG from '../../../public/images/logo-light.svg';
 import StyledNav from './index.style';
 
