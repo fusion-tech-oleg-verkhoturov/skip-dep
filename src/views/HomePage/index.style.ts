@@ -50,9 +50,7 @@ export const MainInfoContainer = styled.div`
       margin: 70px auto 0;
       max-width: 1106.85px;
 
-      img {
-        width: 100%;
-        height: 100%;
+      svg {
         margin-top: 20px;
       }
     }
@@ -76,7 +74,7 @@ export const DescriptionContainer = styled.div`
       position: relative;
       margin-top: 50px;
       height: 660px;
-      background-image: url('/images/description-screen.png');
+      background-image: url('/images/description-screen.svg');
       background-repeat: no-repeat;
     }
 
@@ -84,6 +82,7 @@ export const DescriptionContainer = styled.div`
       width: 598px;
       position: absolute;
       left: 43.17%;
+      top: 44px;
       display: grid;
     }
 
@@ -165,10 +164,11 @@ export const SourceContainer = styled.div`
 
   .home-source {
     &__screen-container {
-      width: 100%;
+      width: 741px;
       height: 100%;
       position: absolute;
-      background-image: url('/images/results-screen.png');
+      right: 0;
+      background-image: url('/images/results-screen.svg');
       background-repeat: no-repeat;
       background-position: right 85.21px;
       z-index: 0;

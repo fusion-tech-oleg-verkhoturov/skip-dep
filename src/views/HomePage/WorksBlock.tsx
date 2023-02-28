@@ -1,10 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 
 import Chip from '@/components/Chip';
 import { BlockTitleContainer, WorksContainer } from './index.style';
 import ArrowSVG from '../../../public/images/arrow-right.svg';
-import UploadImage from '../../../public/images/upload-screen.png';
+import UploadImage from '../../../public/images/upload-screen.svg';
 
 const chips = [
   { text: 'Sign up' },
@@ -30,12 +29,13 @@ const WorksBlock = () => (
       ))}
     </div>
     <div className="home-works__screen-container">
-      <Image
+      {/* <Image
       className="home-works__screen"
       src={UploadImage}
       alt="dashboard"
       priority
-    />
+    /> */}
+      <UploadImage className="home-works__screen" />
     </div>
   </WorksContainer>
 );

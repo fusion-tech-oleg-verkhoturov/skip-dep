@@ -1,11 +1,10 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import Button from '@/components/Button';
 import Chip from '@/components/Chip';
 import { URLS, ROUTES } from '@/utils/constants';
 import { BlockTitleContainer, MainInfoContainer } from './index.style';
-import DashBoardImage from '../../../public/images/dashboard-screen.png';
+import DashBoardImage from '../../../public/images/dashboard-screen.svg';
 
 const chips = [
   'Tier-One Data',
@@ -38,11 +37,12 @@ const MainInfo = () => (
           <Chip key={chip}>{chip}</Chip>
         ))}
       </div>
-      <Image
+      {/* <Image
         src={DashBoardImage}
         alt="dashboard"
         priority
-      />
+      /> */}
+      <DashBoardImage />
     </div>
   </MainInfoContainer>
 );
