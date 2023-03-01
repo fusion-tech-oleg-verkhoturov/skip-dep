@@ -33,12 +33,6 @@ const WorksBlock = () => (
       ))}
     </div>
     <div className="home-works__screen-container">
-      {/* <Image
-      className="home-works__screen"
-      src={UploadImage}
-      alt="dashboard"
-      priority
-    /> */}
       <UploadImage className="home-works__screen" />
     </div>
   </WorksContainer>
