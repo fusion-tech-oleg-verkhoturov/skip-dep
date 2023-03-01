@@ -18,7 +18,11 @@ const WorksBlock = () => (
     <BlockTitleContainer className="block-title">
       <p className="block-title__pre-title">quick and easy</p>
       <h1 className="block-title__title">how it works</h1>
-      <p className="block-title__sub-title">Easy Button Skip Tracing makes the process quick and easy. </p>
+      <p className="block-title__sub-title">
+        Easy Button Skip Tracing makes the process
+        <br />
+        quick and easy.
+      </p>
     </BlockTitleContainer>
     <div className="home-works__chips">
       {chips.map((chip) => (
