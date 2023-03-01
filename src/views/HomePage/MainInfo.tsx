@@ -37,11 +37,6 @@ const MainInfo = () => (
           <Chip key={chip}>{chip}</Chip>
         ))}
       </div>
-      {/* <Image
-        src={DashBoardImage}
-        alt="dashboard"
-        priority
-      /> */}
       <DashBoardImage />
     </div>
   </MainInfoContainer>
