@@ -79,11 +79,24 @@ export const DescriptionContainer = styled.div`
     }
 
     &__cards-container {
-      width: 598px;
+      max-width: 598px;
+      width: 100%;
       position: absolute;
       left: 43.17%;
       top: 44px;
       display: grid;
+
+      @media (max-width: 1500px) {
+        left: 56%;
+      }
+
+      @media (max-width: 1200px) {
+        left: 25%;
+      }
+
+      @media (max-width: 810px) {
+        left: 0;
+      }
     }
 
     &__card {

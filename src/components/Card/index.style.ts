@@ -10,5 +10,6 @@ export default styled.div<{ width?: number }>`
   color: ${({ theme }) => theme.mainTheme.color.typography.blackText};
   box-shadow: ${({ theme }) => theme.mainTheme.shadow.extraLarge};
   background: white;
-  width: ${({ width }) => (width || 433)}px;
+  max-width: ${({ width }) => (width || 433)}px;
+  width: 100%;
 `;
