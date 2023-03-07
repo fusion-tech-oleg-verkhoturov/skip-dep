@@ -9,7 +9,6 @@ const AboutBlock = () => (
     <BlockTitleContainer className="block-title">
       <p className="block-title__pre-title">people talk about us</p>
       <h1 className="block-title__title home-about__title">Easy Button Skip Tracing Founders Have Been Featured On</h1>
-      <p className="block-title__sub-title">You can see us at these arenas</p>
     </BlockTitleContainer>
     <div className="home-about__logos">
       <BiggerSVG />
