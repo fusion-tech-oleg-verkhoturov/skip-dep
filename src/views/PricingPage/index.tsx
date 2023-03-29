@@ -13,8 +13,8 @@ const PricingPage = () => {
         <PricingCard
           title="Bulk Skip trace"
           descritpion="Provides Unrivaled Data in the Skip Tracing Industry."
-          tags={['Less time on data entry', 'More time chasing deals']}
-          price={0.2}
+          tags={['No more incorrect phone numbers', 'More time chasing deals']}
+          price={0.1}
           onSubmit={onSubmit}
         />
       </div>
